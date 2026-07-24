@@ -29,7 +29,7 @@ The method is the project; the mechanisms aren't on display. Source, telemetry s
 ```text
 // ARCHITECTURE LIFECYCLE
 
-  Σ  PROTOTYPE LINEAGE ············· 220+ iterations   [ARCHIVED FOUNDATION]
+  Σ  PROTOTYPE LINEAGE ············· 220 iterations    [ARCHIVED FOUNDATION]
   Σ  NATIVE REBUILD ················ 430+ iterations   [UNDER VALIDATION]
 
   v0.1.x   Static execution prototyping ............. [DEPRECATED]
