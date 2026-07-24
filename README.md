@@ -30,7 +30,7 @@ The method is the project; the mechanisms aren't on display. Source, telemetry s
 // ARCHITECTURE LIFECYCLE
 
   Σ  PROTOTYPE LINEAGE ············· 220+ iterations   [ARCHIVED FOUNDATION]
-  Σ  NATIVE REBUILD ················ 370+ iterations   [UNDER VALIDATION]
+  Σ  NATIVE REBUILD ················ 430+ iterations   [UNDER VALIDATION]
 
   v0.1.x   Static execution prototyping ............. [DEPRECATED]
   v0.2.x   Telemetry decoupling & sensor boundary ... [COMPLETE]
@@ -41,10 +41,16 @@ The method is the project; the mechanisms aren't on display. Source, telemetry s
   v0.5.x   Single-surface interface rebuild ......... [COMPLETE]
   v0.6.x   Adaptive trust boundary .................. [ACTIVE · SEALED]
   v0.6.x   Trust-boundary safety hardening .......... [ACTIVE · RED-TEAM]
+  v0.6.x   Measurement-instrument validation ........ [ACTIVE · PRE-REGISTERED]
 
   Research threads:   RQ-001 · RQ-002 · RQ-003        [under seal]
 ```
 
+Before a result is trusted, the instrument that produced it has to survive the same scrutiny the result would.
+That work is currently the slowest part of the project, on purpose.
+
 ---
+
+*Null results count. A probe that misses its pre-registered bar is filed as a miss — not re-framed, not quietly dropped.*
 
 *Not accepting issues or contributions yet. Watch the repo to be here when the seal comes off.*
