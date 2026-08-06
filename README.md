@@ -30,7 +30,7 @@ The method is the project; the mechanisms aren't on display. Source, telemetry s
 // ARCHITECTURE LIFECYCLE
 
   Σ  PROTOTYPE LINEAGE ············· 220 iterations    [ARCHIVED FOUNDATION]
-  Σ  NATIVE REBUILD ················ 430+ iterations   [UNDER VALIDATION]
+  Σ  NATIVE REBUILD ················ 1,000+ iterations [UNDER VALIDATION]
 
   v0.1.x   Static execution prototyping ............. [DEPRECATED]
   v0.2.x   Telemetry decoupling & sensor boundary ... [COMPLETE]
@@ -39,15 +39,23 @@ The method is the project; the mechanisms aren't on display. Source, telemetry s
   v0.4.x   Cross-hardware generalization ............ [EXPANDING]
   v0.5.x   Measurement-integrity overhaul ........... [COMPLETE]
   v0.5.x   Single-surface interface rebuild ......... [COMPLETE]
-  v0.6.x   Adaptive trust boundary .................. [ACTIVE · SEALED]
-  v0.6.x   Trust-boundary safety hardening .......... [ACTIVE · RED-TEAM]
-  v0.6.x   Measurement-instrument validation ........ [ACTIVE · PRE-REGISTERED]
+  v0.6.x   Adaptive trust boundary .................. [COMPLETE · SEALED]
+  v0.6.x   Trust-boundary safety hardening .......... [COMPLETE · RED-TEAMED]
+  v0.6.x   Measurement-instrument validation ........ [COMPLETE]
+  v0.7.x   Pre-registered controlled study .......... [SEALED · IN EXECUTION]
 
-  Research threads:   RQ-001 · RQ-002 · RQ-003        [under seal]
+  Research threads:   RQ-001 [deferred — instrument first] · RQ-002 · RQ-003   [under seal]
 ```
 
 Before a result is trusted, the instrument that produced it has to survive the same scrutiny the result would.
-That work is currently the slowest part of the project, on purpose.
+That work turned out to be most of the project — on purpose, and it earned its keep: it retired the project's
+original headline metric after measurement showed it was wrong-signed, and the replacement study now runs
+under a pre-registered design instead.
+
+**One artifact in this repository is not thin by accident:** `sv265_schedule_commitment.txt` is the SHA-256
+commitment of the current study's sealed randomization schedule, published *before* the randomness it commits
+to exists, so the design cannot be quietly changed after the results are in. The schedule itself stays in
+offline custody until the study freezes. That's the standard the rest of the work is being held to.
 
 ---
 
