@@ -1,0 +1,13 @@
+SV-265 replacement study -- sealed randomization schedule commitment
+commitment_hash : 660fe92a1d11290474b2ddc0656e1852e7dec320571d3851c4ea9c5c5462dee0
+quicknet round  : 31112838
+round publishes : 2026-08-07T22:31:18Z
+N_max           : 60
+algo_version    : bp-v2
+jitter_max_s    : 0
+published_utc   : 2026-08-06T22:31:18Z
+
+Published BEFORE the round above published. The commitment file and the derived schedule
+are in the study operator's custody and are not published. This line supports the claim
+that the assignment was fixed, unchosen and unaltered before Night 1. It is NOT a
+blindness claim. Rules artifact: AegisSuite/docs/SV265_SCHEDULE_SEAL.md
